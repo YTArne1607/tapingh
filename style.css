@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(1, 1, 73);
+    color: azure;
+    font-family: "Comic Sans MS";
+    user-select: none;
+}
+
+.container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#btn-download {
+    display: none;
+    background-color: coral;
+    color: white;
+    border-radius: 8px;
+    border: 3px solid white;
+}
+
+.textbox {
+    background-color: azure;
+    border: 1.7px solid coral;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+}
+
+.datum-rng {
+    position: absolute;
+    left: 200px;
+    bottom: 200px;
+    background-color: rgb(1, 1, 73);
+    color: white;
+}
+
+.btn1 {
+    background-color: coral;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    border: 1.6px solid white;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+
+.img-blatt {
+    width: auto;
+    height: 670px;
+}
+
+.h6OL {
+    position: absolute;
+    bottom: 310px;
+    left: 530px;
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+#blatt {
+    display: none;
+    margin-top: 55px;
+    position: relative;
+    text-align: center;
+}
+
+label {
+    background-color: white;
+    color: black;
+}
+
+.img-logo {
+    position: absolute;
+    bottom: 580px;
+    left: 590px;
+    width: 320px;
+    height: 50px;
+}
+
+.h5-con {
+    background-color: white;
+    color: black;
+}
+
+.datum-con {
+    visibility: hidden;
+    background-color: white;
+    position: absolute;
+    bottom: 200px;
+    left: 550px;
+    color: black;
+}
+
+.betrag-con {
+    visibility: hidden;
+    background-color: white;
+    position: absolute;
+    bottom: 200px;
+    left: 870px;
+    color: black;
+}
+
+.grau-main {
+    display: none;
+    background-color: rgb(55, 55, 55);
+    width: 425px;
+    height: 20px;
+    position: absolute;
+    left: 530px;
+    bottom: 327px;
+    opacity: 0.3;
+}
+
+.grau1 {
+    display: none;
+    background-color: rgb(55, 55, 55);
+    width: 425px;
+    height: 18px;
+    position: absolute;
+    left: 530px;
+    bottom: 273px;
+    opacity: 0.3;
+}
+
+.grau2 {
+    display: none;
+    background-color: rgb(55, 55, 55);
+    width: 425px;
+    height: 18px;
+    position: absolute;
+    left: 530px;
+    bottom: 237px;
+    opacity: 0.3;
+}
+
+.grau3 {
+    display: none;
+    background-color: rgb(55, 55, 55);
+    text-align: center;
+    width: 425px;
+    height: 18px;
+    position: absolute;
+    left: 530px;
+    bottom: 201px;
+    opacity: 0.3;
+}
+
+.gesamt {
+    visibility: hidden;
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 800px;
+    bottom: 112px;
+    text-align: left;
+}
+
+#h2-black {
+    color: black;
+    background-color: white;
+}
+
+
+#dtm1 {
+    color: black;
+}
+
+#dtm2 {
+    color: black;
+}
+
+#dtm3 {
+    color: black;
+}
+
+#dtm4 {
+    color: black;
+}
+
+#dtm5 {
+    color: black;
+}
+
+#dtm6 {
+    color: black;
+}
+
+#btg1 {
+    color: black;
+}
+
+#btg2 {
+    color: black;
+}
+
+#btg3 {
+    color: black;
+}
+
+#btg4 {
+    color: black;
+}
+
+#btg5 {
+    color: black;
+}
+
+#btg6 {
+    color: black;
+}
