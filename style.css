@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: rgb(1, 1, 73);
-    color: azure;
+    background-color: white;
+    color: black;
     font-family: "Comic Sans MS";
     user-select: none;
 }
@@ -10,6 +10,10 @@
 .container {
     text-align: center;
     margin-top: 60px;
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    left: 100px;
 }
 
 #btn-download {
@@ -18,22 +22,39 @@
     color: white;
     border-radius: 8px;
     border: 3px solid white;
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 265px;
 }
 
 .textbox {
-    background-color: azure;
+    background-color: white;
     border: 1.7px solid coral;
     border-radius: 8px;
     color: black;
     text-align: center;
 }
 
+#alles {
+    position: relative;
+    width: 800px;
+    max-width: 800px;
+    min-height: 1000px;
+    max-height: 5px;
+    display: none;
+    background-color: white;
+}
+
 .datum-rng {
     position: absolute;
-    left: 200px;
-    bottom: 200px;
-    background-color: rgb(1, 1, 73);
-    color: white;
+    left: 20px;
+    top: 140px;
+    max-width: 200px;
+    background-color: white;
+    color: black;
 }
 
 .btn1 {
@@ -51,24 +72,29 @@
 
 
 .img-blatt {
-    width: auto;
-    height: 670px;
+    height: 1000px;
+    width: 800px;
+    max-height: 2000px;
 }
 
 .h6OL {
     position: absolute;
-    bottom: 310px;
-    left: 530px;
+    top: 200px;
+    left: 66px;
     background-color: white;
     text-align: left;
     color: black;
+    max-width: 250px;
+    height: 0px;
 }
 
 #blatt {
     display: none;
-    margin-top: 55px;
-    position: relative;
+    position: absolute;
     text-align: center;
+    width: 600px;
+    max-width: 900px;
+
 }
 
 label {
@@ -78,10 +104,9 @@ label {
 
 .img-logo {
     position: absolute;
-    bottom: 580px;
-    left: 590px;
-    width: 320px;
-    height: 50px;
+    left: 40px;
+    width: 700px;
+    height: 120px;
 }
 
 .h5-con {
@@ -91,52 +116,55 @@ label {
 
 .datum-con {
     visibility: hidden;
-    background-color: white;
     position: absolute;
-    bottom: 200px;
-    left: 550px;
+    left: 90px;
+    bottom: 400px;
     color: black;
+    max-width: 100px;
+    height: 700px;
 }
 
 .betrag-con {
-    visibility: hidden;
-    background-color: white;
+    visibility: hidden; 
     position: absolute;
+    left: 660px;
     bottom: 200px;
-    left: 870px;
     color: black;
+    max-width: 100px;
+    height: 700px;
 }
 
 .grau-main {
     display: none;
     background-color: rgb(55, 55, 55);
-    width: 425px;
-    height: 20px;
-    position: absolute;
-    left: 530px;
-    bottom: 327px;
+    width: 700px;
+    height: 30px;
+    max-width: 700px;
+    position: relative;
+    left: 60px;
+    top: 558px;
     opacity: 0.3;
 }
 
 .grau1 {
     display: none;
     background-color: rgb(55, 55, 55);
-    width: 425px;
-    height: 18px;
-    position: absolute;
-    left: 530px;
-    bottom: 273px;
+    width: 700px;
+    height: 25px;
+    position: relative;
+    left: 60px;
+    top: 609.5px;
     opacity: 0.3;
 }
 
 .grau2 {
     display: none;
     background-color: rgb(55, 55, 55);
-    width: 425px;
-    height: 18px;
-    position: absolute;
-    left: 530px;
-    bottom: 237px;
+    width: 700px;
+    height: 25px;
+    position: relative;
+    left: 60px;
+    top: 637.5px;
     opacity: 0.3;
 }
 
@@ -144,11 +172,11 @@ label {
     display: none;
     background-color: rgb(55, 55, 55);
     text-align: center;
-    width: 425px;
-    height: 18px;
-    position: absolute;
-    left: 530px;
-    bottom: 201px;
+    width: 700px;
+    height: 25px;
+    position: relative;
+    left: 60px;
+    top: 665px;
     opacity: 0.3;
 }
 
@@ -157,14 +185,37 @@ label {
     background-color: white;
     color: black;
     position: absolute;
-    left: 800px;
-    bottom: 112px;
+    left: 610px;
+    top: 900px;
     text-align: left;
+    max-width: 150px;
+}
+
+#h2-unter {
+    position: relative;
+    top: 2px;
+    right: 7.5px;
+    height: 2px;
+    width: 130px;
+    background-color: black;
+}
+
+#h2-unter2 {
+    position: relative;
+    top: 5px;
+    right: 7.5px;
+    height: 2px;
+    width: 130px;
+    background-color: black;
 }
 
 #h2-black {
-    color: black;
-    background-color: white;
+    background-color: black;
+    position: relative;
+    left: 581px;
+    top: 800px;
+    height: 2px;
+    width: 170px;
 }
 
 
@@ -214,4 +265,26 @@ label {
 
 #btg6 {
     color: black;
+}
+
+/* Beispiel für Media Queries */
+/*
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 5px;
+    }
 }
