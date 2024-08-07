@@ -69,45 +69,45 @@ function btn() {
         document.querySelector(".gesamt").style.visibility="visible";
 
         if (datum1.value != "") {
-            document.querySelector(".datum-con").style.top="200px";
-            document.querySelector(".betrag-con").style.top="200px";
+            document.querySelector(".datum-con").style.top="650px";
+            document.querySelector(".betrag-con").style.top="650px";
             document.getElementById("dtm1").innerHTML = datum1.value;
             document.getElementById("btg1").innerHTML = betrag1.value + " €";
-            document.getElementById("gesamt").innerHTML = parseInt(betrag1.value) + " €";
+            document.getElementById("gesamt").innerHTML = parseFloat(betrag1.value) + " €";
         }
 
         if (datum2.value != "") {
         document.querySelector(".grau1").style.display="block";
-        document.querySelector(".datum-con").style.top="200px";
-        document.querySelector(".betrag-con").style.top="200px";
+        document.querySelector(".datum-con").style.top="650px";
+        document.querySelector(".betrag-con").style.top="650px";
         document.getElementById("dtm2").innerHTML = datum2.value;
         document.getElementById("btg2").innerHTML = betrag2.value + " €";
-        document.getElementById("gesamt").innerHTML = parseInt(betrag1.value) + parseInt(betrag2.value) + " €";
+        document.getElementById("gesamt").innerHTML = parseFloat(betrag1.value) + parseFloat(betrag2.value) + " €";
         }
 
         if (datum3.value != "") {
-            document.querySelector(".datum-con").style.top="200px";
-            document.querySelector(".betrag-con").style.top="200px";
+            document.querySelector(".datum-con").style.top="650px";
+            document.querySelector(".betrag-con").style.top="650px";
             document.getElementById("dtm3").innerHTML = datum3.value;
             document.getElementById("btg3").innerHTML = betrag3.value + " €";
-            document.getElementById("gesamt").innerHTML = parseInt(betrag1.value) + parseInt(betrag2.value) + parseInt(betrag3.value) + " €";
+            document.getElementById("gesamt").innerHTML = parseFloat(betrag1.value) + parseFloat(betrag2.value) + parseFloat(betrag3.value) + " €";
         }
         
         if (datum4.value != "") {
         document.querySelector(".grau2").style.display="block";
-        document.querySelector(".datum-con").style.top="200px";
-        document.querySelector(".betrag-con").style.top="200px";
+        document.querySelector(".datum-con").style.top="650px";
+        document.querySelector(".betrag-con").style.top="650px";
         document.getElementById("dtm4").innerHTML = datum4.value;
         document.getElementById("btg4").innerHTML = betrag4.value + " €";
-        document.getElementById("gesamt").innerHTML = parseInt(betrag1.value) + parseInt(betrag2.value) + parseInt(betrag3.value) + parseInt(betrag4.value) + " €";
+        document.getElementById("gesamt").innerHTML = parseFloat(betrag1.value) + parseFloat(betrag2.value) + parseFloat(betrag3.value) + parseFloat(betrag4.value) + " €";
         }
 
         if (datum5.value != "") {
-            document.querySelector(".datum-con").style.top="200px";
-            document.querySelector(".betrag-con").style.top="200px";
+            document.querySelector(".datum-con").style.top="650px";
+            document.querySelector(".betrag-con").style.top="650px";
             document.getElementById("dtm5").innerHTML = datum5.value;
             document.getElementById("btg5").innerHTML = betrag5.value + " €";
-            document.getElementById("gesamt").innerHTML = parseInt(betrag1.value) + parseInt(betrag2.value) + parseInt(betrag3.value) + parseInt(betrag4.value) + parseInt(betrag5.value) + " €";
+            document.getElementById("gesamt").innerHTML = parseFloat(betrag1.value) + parseFloat(betrag2.value) + parseFloat(betrag3.value) + parseFloat(betrag4.value) + parseFloat(betrag5.value) + " €";
         }
         
         if (datum6.value != "") {
@@ -116,7 +116,7 @@ function btn() {
         document.querySelector(".betrag-con").style.top= "650px";
         document.getElementById("dtm6").innerHTML = datum6.value;
         document.getElementById("btg6").innerHTML = betrag6.value + " €";
-        document.getElementById("gesamt").innerHTML = parseInt(betrag1.value) + parseInt(betrag2.value) + parseInt(betrag3.value) + parseInt(betrag4.value) + parseInt(betrag5.value) + parseInt(betrag6.value) + " €";
+        document.getElementById("gesamt").innerHTML = parseFloat(betrag1.value) + parseFloat(betrag2.value) + parseFloat(betrag3.value) + parseFloat(betrag4.value) + parseFloat(betrag5.value) + parseFloat(betrag6.value) + " €";
         }
 
     }
