@@ -118,7 +118,7 @@ label {
     visibility: hidden;
     position: absolute;
     left: 90px;
-    bottom: 400px;
+    top: 650px;
     color: black;
     max-width: 100px;
     height: 700px;
@@ -128,7 +128,7 @@ label {
     visibility: hidden; 
     position: absolute;
     left: 660px;
-    bottom: 200px;
+    top: 650px;
     color: black;
     max-width: 100px;
     height: 700px;
@@ -196,7 +196,7 @@ label {
     top: 2px;
     right: 7.5px;
     height: 2px;
-    width: 130px;
+    width: 150px;
     background-color: black;
 }
 
@@ -205,7 +205,7 @@ label {
     top: 5px;
     right: 7.5px;
     height: 2px;
-    width: 130px;
+    width: 150px;
     background-color: black;
 }
 
